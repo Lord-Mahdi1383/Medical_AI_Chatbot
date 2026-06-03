@@ -65,7 +65,5 @@ python cli_chat.py
 
 
 # Medical Disclaimer
-This AI model is an experimental research project and is for educational putposes only.
+This AI model is an experimental research project and is for educational purposes only.
 It is not a substitute for professional medical advice, diagnosis, or treatment. Always seel the advice of a qualified physician or health provider
-
-
