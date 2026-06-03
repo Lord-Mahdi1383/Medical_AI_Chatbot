@@ -1,0 +1,13 @@
+# Web Interface
+streamlit
+
+# Tuning and Hugging Face Libraries
+transformers
+torch
+accelerate
+
+# OpenVINO (for fast CPU interface)
+optimum[openvino]
+
+# Required for merge.py to load LoRA adapters
+peft
