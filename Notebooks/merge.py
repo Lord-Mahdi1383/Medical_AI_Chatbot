@@ -1,11 +1,13 @@
 import torch
-from transformers import AutoModel, AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import PeftModel
 import os
+import sys
+
 
 BASE_MODEL = "unsloth/phi3-mini-4k-instruct"
-ADAPTERS_DIR = "./phi3_doctor_lora"
-MERGED_DIR = "./phi3_doctor_merged"
+ADAPTERS_DIR = os.path.join("model", "phi3_doctor_lora")
+MERGED_DIR = os.path.join("model", "phi3_doctor_merged")
 
 def merge_adapters():
     print(f"loading base model: {BASE_MODEL}...")
